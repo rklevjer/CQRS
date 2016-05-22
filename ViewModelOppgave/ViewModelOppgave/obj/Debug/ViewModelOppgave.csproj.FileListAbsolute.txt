@@ -1,0 +1,54 @@
+c:\users\mariusi\documents\visual studio 2013\Projects\ViewModelOppgave\ViewModelOppgave\bin\Debug\ViewModelOppgave.exe.config
+c:\users\mariusi\documents\visual studio 2013\Projects\ViewModelOppgave\ViewModelOppgave\bin\Debug\ViewModelOppgave.exe
+c:\users\mariusi\documents\visual studio 2013\Projects\ViewModelOppgave\ViewModelOppgave\bin\Debug\ViewModelOppgave.pdb
+c:\users\mariusi\documents\visual studio 2013\Projects\ViewModelOppgave\ViewModelOppgave\obj\Debug\ViewModelOppgave.csprojResolveAssemblyReference.cache
+c:\users\mariusi\documents\visual studio 2013\Projects\ViewModelOppgave\ViewModelOppgave\obj\Debug\ViewModelOppgave.Form1.resources
+c:\users\mariusi\documents\visual studio 2013\Projects\ViewModelOppgave\ViewModelOppgave\obj\Debug\ViewModelOppgave.Properties.Resources.resources
+c:\users\mariusi\documents\visual studio 2013\Projects\ViewModelOppgave\ViewModelOppgave\obj\Debug\ViewModelOppgave.csproj.GenerateResource.Cache
+c:\users\mariusi\documents\visual studio 2013\Projects\ViewModelOppgave\ViewModelOppgave\obj\Debug\ViewModelOppgave.exe
+c:\users\mariusi\documents\visual studio 2013\Projects\ViewModelOppgave\ViewModelOppgave\obj\Debug\ViewModelOppgave.pdb
+D:\Oppgaver\ViewModelOppgave\ViewModelOppgave\bin\Debug\ViewModelOppgave.exe.config
+D:\Oppgaver\ViewModelOppgave\ViewModelOppgave\obj\Debug\ViewModelOppgave.exe
+D:\Oppgaver\ViewModelOppgave\ViewModelOppgave\obj\Debug\ViewModelOppgave.pdb
+D:\Oppgaver\ViewModelOppgave\ViewModelOppgave\bin\Debug\ViewModelOppgave.exe
+D:\Oppgaver\ViewModelOppgave\ViewModelOppgave\bin\Debug\ViewModelOppgave.pdb
+D:\Oppgaver\ViewModelOppgave\ViewModelOppgave\obj\Debug\ViewModelOppgave.Form1.resources
+D:\Oppgaver\ViewModelOppgave\ViewModelOppgave\obj\Debug\ViewModelOppgave.Properties.Resources.resources
+D:\Oppgaver\ViewModelOppgave\ViewModelOppgave\obj\Debug\ViewModelOppgave.csproj.GenerateResource.Cache
+D:\Oppgaver\ViewModelOppgave\ViewModelOppgave\obj\Debug\ViewModelOppgave.AllMemberView.resources
+D:\Oppgaver\ViewModelOppgave\ViewModelOppgave\obj\Debug\ViewModelOppgave.AllMemberForm.resources
+D:\Oppgaver\ViewModelOppgave\ViewModelOppgave\bin\Debug\System.Reactive.Core.dll
+D:\Oppgaver\ViewModelOppgave\ViewModelOppgave\bin\Debug\System.Reactive.Linq.dll
+D:\Oppgaver\ViewModelOppgave\ViewModelOppgave\bin\Debug\System.Reactive.Core.xml
+D:\Oppgaver\ViewModelOppgave\ViewModelOppgave\bin\Debug\System.Reactive.Linq.xml
+D:\Oppgaver\ViewModelOppgave\ViewModelOppgave\obj\Debug\ViewModelOppgave.csprojResolveAssemblyReference.cache
+D:\Oppgaver\ViewModelOppgave\ViewModelOppgave\obj\Debug\ViewModelOppgave.MemberView.resources
+C:\ViewModelOppgave\ViewModelOppgave\bin\Debug\ViewModelOppgave.exe.config
+C:\ViewModelOppgave\ViewModelOppgave\obj\Debug\ViewModelOppgave.exe
+C:\ViewModelOppgave\ViewModelOppgave\obj\Debug\ViewModelOppgave.pdb
+C:\ViewModelOppgave\ViewModelOppgave\bin\Debug\ViewModelOppgave.exe
+C:\ViewModelOppgave\ViewModelOppgave\bin\Debug\ViewModelOppgave.pdb
+C:\ViewModelOppgave\ViewModelOppgave\bin\Debug\System.Reactive.Core.xml
+C:\ViewModelOppgave\ViewModelOppgave\bin\Debug\System.Reactive.Linq.xml
+C:\ViewModelOppgave\ViewModelOppgave\obj\Debug\ViewModelOppgave.csprojResolveAssemblyReference.cache
+C:\ViewModelOppgave\ViewModelOppgave\obj\Debug\ViewModelOppgave.AllMemberForm.resources
+C:\ViewModelOppgave\ViewModelOppgave\obj\Debug\ViewModelOppgave.AllMemberView.resources
+C:\ViewModelOppgave\ViewModelOppgave\obj\Debug\ViewModelOppgave.Form1.resources
+C:\ViewModelOppgave\ViewModelOppgave\obj\Debug\ViewModelOppgave.MemberView.resources
+C:\ViewModelOppgave\ViewModelOppgave\obj\Debug\ViewModelOppgave.Properties.Resources.resources
+C:\ViewModelOppgave\ViewModelOppgave\obj\Debug\ViewModelOppgave.csproj.GenerateResource.Cache
+C:\ViewModelOppgave\ViewModelOppgave\bin\Debug\System.Reactive.Interfaces.dll
+C:\ViewModelOppgave\ViewModelOppgave\bin\Debug\System.Reactive.Interfaces.xml
+C:\programming\Oppgaver\Alexander\ViewModelOppgave\ViewModelOppgave\bin\Debug\ViewModelOppgave.exe.config
+C:\programming\Oppgaver\Alexander\ViewModelOppgave\ViewModelOppgave\obj\Debug\ViewModelOppgave.exe
+C:\programming\Oppgaver\Alexander\ViewModelOppgave\ViewModelOppgave\obj\Debug\ViewModelOppgave.pdb
+C:\programming\Oppgaver\Alexander\ViewModelOppgave\ViewModelOppgave\obj\Debug\ViewModelOppgave.csprojResolveAssemblyReference.cache
+C:\programming\Oppgaver\Alexander\ViewModelOppgave\ViewModelOppgave\obj\Debug\ViewModelOppgave.Properties.Resources.resources
+C:\programming\Oppgaver\Alexander\ViewModelOppgave\ViewModelOppgave\obj\Debug\ViewModelOppgave.csproj.GenerateResource.Cache
+C:\programming\Oppgaver\Alexander\ViewModelOppgave\ViewModelOppgave\bin\Debug\ViewModelOppgave.exe
+C:\programming\Oppgaver\Alexander\ViewModelOppgave\ViewModelOppgave\bin\Debug\ViewModelOppgave.pdb
+C:\programming\Oppgaver\Alexander\ViewModelOppgave\ViewModelOppgave\bin\Debug\System.Reactive.Core.xml
+C:\programming\Oppgaver\Alexander\ViewModelOppgave\ViewModelOppgave\bin\Debug\System.Reactive.Interfaces.xml
+C:\programming\Oppgaver\Alexander\ViewModelOppgave\ViewModelOppgave\bin\Debug\System.Reactive.Linq.xml
+C:\programming\Oppgaver\Alexander\ViewModelOppgave\ViewModelOppgave\obj\Debug\ViewModelOppgave.Frontend.MemberDetailsView.resources
+C:\programming\Oppgaver\Alexander\ViewModelOppgave\ViewModelOppgave\obj\Debug\ViewModelOppgave.Frontend.MembersView.resources
