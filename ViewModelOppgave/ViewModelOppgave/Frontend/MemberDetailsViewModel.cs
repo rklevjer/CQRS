@@ -1,5 +1,5 @@
 ﻿using System.Collections.Generic;
-using ViewModelOppgave.Backend;
+using ViewModelOppgave.Backend.Write;
 using ViewModelOppgave.Infrastructure;
 using ViewModelOppgave.Infrastructure.ViewModels;
 using ViewModelOppgave.Properties;
@@ -8,12 +8,12 @@ namespace ViewModelOppgave.Frontend
 {
 	public class MemberDetailsViewModel : ViewModelWithRules
 	{
-		private Backend.Member _dataSource;
-		private readonly Backend.IBookClubApi _bookClubApi;
+		private DetailMember _dataSource;
+		private readonly IWriteApi _writeApi;
 
-		public MemberDetailsViewModel(IBookClubApi bookClubApi)
+		public MemberDetailsViewModel(IWriteApi writeApi)
 		{
-			_bookClubApi = bookClubApi;
+			_writeApi = writeApi;
 		}
 
 		public string CreateNewMember()
@@ -24,11 +24,11 @@ namespace ViewModelOppgave.Frontend
 			if (!IsValid || !IsNewMember)
 				return null;
 
-			var id = _bookClubApi.AddNewMember(DataSource);
+			var id = _writeApi.AddNewMember(DataSource);
 			return id;
 		}
 
-		public Backend.Member DataSource
+		public Backend.Write.DetailMember DataSource
 		{
 			get { return _dataSource; }
 			set

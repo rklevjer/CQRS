@@ -53,7 +53,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Backend\IBookClubApi.cs" />
+    <Compile Include="Backend\DB.cs" />
+    <Compile Include="Backend\Member.cs" />
+    <Compile Include="Backend\Read\IReadApi.cs" />
+    <Compile Include="Backend\Read\ReadApi.cs" />
+    <Compile Include="Backend\Read\GridMember.cs" />
+    <Compile Include="Backend\Write\IWriteApi.cs" />
+    <Compile Include="Backend\Write\WriteApi.cs" />
+    <Compile Include="Backend\Write\DetailMember.cs" />
     <Compile Include="Frontend\MembersView.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -61,8 +68,6 @@
       <DependentUpon>MembersView.cs</DependentUpon>
     </Compile>
     <Compile Include="Frontend\MembersViewModel.cs" />
-    <Compile Include="Backend\Member.cs" />
-    <Compile Include="Backend\BookClubApi.cs" />
     <Compile Include="Backend\Sex.cs" />
     <Compile Include="Infrastructure\BaseInterfaces.cs" />
     <Compile Include="Infrastructure\BindingDefaults.cs" />
