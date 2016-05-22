@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Windows.Forms;
-using ViewModelOppgave.Backend;
+using ViewModelOppgave.Backend.Read;
+using ViewModelOppgave.Backend.Write;
 using ViewModelOppgave.Frontend;
 
 namespace ViewModelOppgave
@@ -16,8 +17,9 @@ namespace ViewModelOppgave
 			Application.EnableVisualStyles();
 			Application.SetCompatibleTextRenderingDefault(false);
 
-			var bookClubApi = new BookClubApi();
-			var viewModel = new MembersViewModel(bookClubApi, new MemberDetailsViewModel(bookClubApi) { DataSource = new Member(true) });
+			var readApi = new ReadApi();
+			var writeApi = new WriteApi();
+			var viewModel = new MembersViewModel(readApi, writeApi, new MemberDetailsViewModel(writeApi) { DataSource = new DetailMember(true) });
 	
 			Application.Run(new MembersView(viewModel));
 		}

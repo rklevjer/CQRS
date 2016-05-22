@@ -52,3 +52,32 @@ C:\programming\Oppgaver\Alexander\ViewModelOppgave\ViewModelOppgave\bin\Debug\Sy
 C:\programming\Oppgaver\Alexander\ViewModelOppgave\ViewModelOppgave\bin\Debug\System.Reactive.Linq.xml
 C:\programming\Oppgaver\Alexander\ViewModelOppgave\ViewModelOppgave\obj\Debug\ViewModelOppgave.Frontend.MemberDetailsView.resources
 C:\programming\Oppgaver\Alexander\ViewModelOppgave\ViewModelOppgave\obj\Debug\ViewModelOppgave.Frontend.MembersView.resources
+C:\Users\Roger\Documents\Visual Studio 2015\Projects\ViewModelOppgave\ViewModelOppgave\bin\Debug\ViewModelOppgave.exe.config
+C:\Users\Roger\Documents\Visual Studio 2015\Projects\ViewModelOppgave\ViewModelOppgave\obj\Debug\ViewModelOppgave.exe
+C:\Users\Roger\Documents\Visual Studio 2015\Projects\ViewModelOppgave\ViewModelOppgave\obj\Debug\ViewModelOppgave.pdb
+C:\Users\Roger\Documents\Visual Studio 2015\Projects\ViewModelOppgave\ViewModelOppgave\bin\Debug\ViewModelOppgave.exe
+C:\Users\Roger\Documents\Visual Studio 2015\Projects\ViewModelOppgave\ViewModelOppgave\bin\Debug\ViewModelOppgave.pdb
+C:\Users\Roger\Documents\Visual Studio 2015\Projects\ViewModelOppgave\ViewModelOppgave\bin\Debug\System.Reactive.Core.xml
+C:\Users\Roger\Documents\Visual Studio 2015\Projects\ViewModelOppgave\ViewModelOppgave\bin\Debug\System.Reactive.Interfaces.xml
+C:\Users\Roger\Documents\Visual Studio 2015\Projects\ViewModelOppgave\ViewModelOppgave\bin\Debug\System.Reactive.Linq.xml
+C:\Users\Roger\Documents\Visual Studio 2015\Projects\ViewModelOppgave\ViewModelOppgave\obj\Debug\ViewModelOppgave.csprojResolveAssemblyReference.cache
+C:\Users\Roger\Documents\Visual Studio 2015\Projects\ViewModelOppgave\ViewModelOppgave\obj\Debug\ViewModelOppgave.Frontend.MembersView.resources
+C:\Users\Roger\Documents\Visual Studio 2015\Projects\ViewModelOppgave\ViewModelOppgave\obj\Debug\ViewModelOppgave.Frontend.MemberDetailsView.resources
+C:\Users\Roger\Documents\Visual Studio 2015\Projects\ViewModelOppgave\ViewModelOppgave\obj\Debug\ViewModelOppgave.Properties.Resources.resources
+C:\Users\Roger\Documents\Visual Studio 2015\Projects\ViewModelOppgave\ViewModelOppgave\obj\Debug\ViewModelOppgave.csproj.GenerateResource.Cache
+C:\CQRS\ViewModelOppgave1\ViewModelOppgave\ViewModelOppgave\bin\Debug\ViewModelOppgave.exe.config
+C:\CQRS\ViewModelOppgave1\ViewModelOppgave\ViewModelOppgave\obj\Debug\ViewModelOppgave.exe
+C:\CQRS\ViewModelOppgave1\ViewModelOppgave\ViewModelOppgave\obj\Debug\ViewModelOppgave.pdb
+C:\CQRS\ViewModelOppgave1\ViewModelOppgave\ViewModelOppgave\obj\Debug\ViewModelOppgave.csprojResolveAssemblyReference.cache
+C:\CQRS\ViewModelOppgave1\ViewModelOppgave\ViewModelOppgave\obj\Debug\ViewModelOppgave.Frontend.MembersView.resources
+C:\CQRS\ViewModelOppgave1\ViewModelOppgave\ViewModelOppgave\obj\Debug\ViewModelOppgave.Frontend.MemberDetailsView.resources
+C:\CQRS\ViewModelOppgave1\ViewModelOppgave\ViewModelOppgave\obj\Debug\ViewModelOppgave.Properties.Resources.resources
+C:\CQRS\ViewModelOppgave1\ViewModelOppgave\ViewModelOppgave\obj\Debug\ViewModelOppgave.csproj.GenerateResource.Cache
+C:\CQRS\ViewModelOppgave1\ViewModelOppgave\ViewModelOppgave\bin\Debug\ViewModelOppgave.exe
+C:\CQRS\ViewModelOppgave1\ViewModelOppgave\ViewModelOppgave\bin\Debug\ViewModelOppgave.pdb
+C:\CQRS\ViewModelOppgave1\ViewModelOppgave\ViewModelOppgave\bin\Debug\System.Reactive.Core.dll
+C:\CQRS\ViewModelOppgave1\ViewModelOppgave\ViewModelOppgave\bin\Debug\System.Reactive.Interfaces.dll
+C:\CQRS\ViewModelOppgave1\ViewModelOppgave\ViewModelOppgave\bin\Debug\System.Reactive.Linq.dll
+C:\CQRS\ViewModelOppgave1\ViewModelOppgave\ViewModelOppgave\bin\Debug\System.Reactive.Core.xml
+C:\CQRS\ViewModelOppgave1\ViewModelOppgave\ViewModelOppgave\bin\Debug\System.Reactive.Interfaces.xml
+C:\CQRS\ViewModelOppgave1\ViewModelOppgave\ViewModelOppgave\bin\Debug\System.Reactive.Linq.xml

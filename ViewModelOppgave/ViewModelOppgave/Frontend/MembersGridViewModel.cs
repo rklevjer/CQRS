@@ -6,14 +6,14 @@ namespace ViewModelOppgave.Frontend
 
 	public class MembersGridViewModel : ViewModelWithRules
 	{
-		private readonly Backend.Member _dataSource;
+		private readonly Backend.Read.GridMember _dataSource;
 
-		public MembersGridViewModel(Backend.Member dataSource)
+		public MembersGridViewModel(Backend.Read.GridMember dataSource)
 		{
 			_dataSource = dataSource;
 		}
 
-		public Backend.Member DataSource
+		public Backend.Read.GridMember DataSource
 		{
 			get { return _dataSource; }
 		}
@@ -57,5 +57,10 @@ namespace ViewModelOppgave.Frontend
 				this.OnPropertyChanged(vm => vm.Sex);
 			}
 		}
-	}
+
+        public string Id
+        {
+            get { return DataSource.DefaultIfNull(r => r.Id); }
+        }
+    }
 }

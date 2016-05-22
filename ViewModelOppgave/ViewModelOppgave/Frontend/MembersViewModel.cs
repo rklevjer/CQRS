@@ -1,7 +1,8 @@
 ﻿using System;
 using System.ComponentModel;
 using System.Linq;
-using ViewModelOppgave.Backend;
+using ViewModelOppgave.Backend.Read;
+using ViewModelOppgave.Backend.Write;
 using ViewModelOppgave.Infrastructure;
 using ViewModelOppgave.Infrastructure.ViewModels;
 
@@ -9,15 +10,17 @@ namespace ViewModelOppgave.Frontend
 {
 	public class MembersViewModel : ViewModelWithRules
 	{
-		private readonly IBookClubApi _bookClubApi;
-		private BindingList<MembersGridViewModel> _allMembers;
+		private readonly IReadApi _readApi;
+        private readonly IWriteApi _writeApi;
+        private BindingList<MembersGridViewModel> _allMembers;
 		private MembersGridViewModel _selectedMemberInGrid;
 
-		public MembersViewModel(IBookClubApi bookClubApi, MemberDetailsViewModel memberDetails)
+		public MembersViewModel(IReadApi readApi, IWriteApi writeApi, MemberDetailsViewModel memberDetails)
 		{
-			_bookClubApi = bookClubApi;
+			_readApi = readApi;
+            _writeApi = writeApi;
 
-			MemberDetails = memberDetails;
+            MemberDetails = memberDetails;
 			MemberDetails.PropertyChanged += MemberDetailsHasChanged;
 
 			CreateNewMemberRecordCommand = new DelegateCommand(() => AddNewMemberRecord(), () => !MemberDetails.DataSource.IsNew);
@@ -98,7 +101,7 @@ namespace ViewModelOppgave.Frontend
 			_allMembers.RaiseListChangedEvents = false;
 			_allMembers.Clear();
 
-			foreach (var member in _bookClubApi.GetAllMembers())
+			foreach (var member in _readApi.GetAllMembers())
 			{
 				_allMembers.Add(new MembersGridViewModel(member));
 			}
@@ -112,7 +115,7 @@ namespace ViewModelOppgave.Frontend
 			if (MemberDetails.DataSource != null && MemberDetails.DataSource.IsNew)
 				return;
 
-			MemberDetails.DataSource = new Member(true);
+			MemberDetails.DataSource = new DetailMember(true);
 			this.AllPropertiesChanged();
 		}
 
@@ -130,7 +133,7 @@ namespace ViewModelOppgave.Frontend
 		private void ShowMemberDetailsFor(MembersGridViewModel selectedMemberInGrid)
 		{
 			if (selectedMemberInGrid != null)
-				MemberDetails.DataSource = selectedMemberInGrid.DataSource;
+				MemberDetails.DataSource = _writeApi.GetSelectedMember(SelectedMemberInGrid.Id);
 			else
 				MemberDetails.DataSource = null;
 		}
