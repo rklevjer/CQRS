@@ -8,7 +8,7 @@ namespace ViewModelOppgave.Frontend
 {
 	public class MemberDetailsViewModel : ViewModelWithRules
 	{
-		private DetailMember _dataSource;
+		private MemberDetailsDto _dataSource;
 		private readonly IWriteApi _writeApi;
 
 		public MemberDetailsViewModel(IWriteApi writeApi)
@@ -28,7 +28,7 @@ namespace ViewModelOppgave.Frontend
 			return id;
 		}
 
-		public Backend.Write.DetailMember DataSource
+		public Backend.Write.MemberDetailsDto DataSource
 		{
 			get { return _dataSource; }
 			set

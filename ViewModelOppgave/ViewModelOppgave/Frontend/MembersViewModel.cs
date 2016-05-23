@@ -15,10 +15,9 @@ namespace ViewModelOppgave.Frontend
         private BindingList<MembersGridViewModel> _allMembers;
 		private MembersGridViewModel _selectedMemberInGrid;
 
-		public MembersViewModel(IReadApi readApi, IWriteApi writeApi, MemberDetailsViewModel memberDetails)
+		public MembersViewModel(IReadApi readApi, MemberDetailsViewModel memberDetails)
 		{
 			_readApi = readApi;
-            _writeApi = writeApi;
 
             MemberDetails = memberDetails;
 			MemberDetails.PropertyChanged += MemberDetailsHasChanged;
@@ -115,7 +114,7 @@ namespace ViewModelOppgave.Frontend
 			if (MemberDetails.DataSource != null && MemberDetails.DataSource.IsNew)
 				return;
 
-			MemberDetails.DataSource = new DetailMember(true);
+			MemberDetails.DataSource = new MemberDetailsDto(true);
 			this.AllPropertiesChanged();
 		}
 
@@ -133,8 +132,17 @@ namespace ViewModelOppgave.Frontend
 		private void ShowMemberDetailsFor(MembersGridViewModel selectedMemberInGrid)
 		{
 			if (selectedMemberInGrid != null)
-				MemberDetails.DataSource = _writeApi.GetSelectedMember(SelectedMemberInGrid.Id);
-			else
+            {
+                var detMember = _readApi.GetSelectedMember(SelectedMemberInGrid.Id);
+                MemberDetails.DataSource = new MemberDetailsDto
+                {
+                    FirstName = detMember.FirstName,
+                    LastName = detMember.LastName,
+                    Age = detMember.Age,
+                    Sex = detMember.Sex
+                };
+            }
+            else
 				MemberDetails.DataSource = null;
 		}
 	}

@@ -4,6 +4,7 @@ namespace ViewModelOppgave.Backend.Read
 {
     public interface IReadApi
     {
-	    IList<GridMember> GetAllMembers();
+	    IList<MembersGridDto> GetAllMembers();
+        MembersGridDto GetSelectedMember(string id);
     }
 }

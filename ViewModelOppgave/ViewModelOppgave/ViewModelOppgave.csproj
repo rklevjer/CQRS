@@ -57,10 +57,10 @@
     <Compile Include="Backend\Member.cs" />
     <Compile Include="Backend\Read\IReadApi.cs" />
     <Compile Include="Backend\Read\ReadApi.cs" />
-    <Compile Include="Backend\Read\GridMember.cs" />
+    <Compile Include="Backend\Read\MembersGridDto.cs" />
     <Compile Include="Backend\Write\IWriteApi.cs" />
     <Compile Include="Backend\Write\WriteApi.cs" />
-    <Compile Include="Backend\Write\DetailMember.cs" />
+    <Compile Include="Backend\Write\MemberDetailsDto.cs" />
     <Compile Include="Frontend\MembersView.cs">
       <SubType>Form</SubType>
     </Compile>

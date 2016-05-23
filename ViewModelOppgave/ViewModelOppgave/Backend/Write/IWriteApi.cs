@@ -2,7 +2,6 @@
 {
     public interface IWriteApi
     {
-        string AddNewMember(DetailMember updateMember);
-        DetailMember GetSelectedMember(string id);
+        string AddNewMember(MemberDetailsDto updateMember);
     }
 }

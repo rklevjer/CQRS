@@ -4,13 +4,13 @@ namespace ViewModelOppgave.Backend.Read
 {
     public class ReadApi : IReadApi
     {
-		public IList<GridMember> GetAllMembers()
+		public IList<MembersGridDto> GetAllMembers()
 		{
-            IList<GridMember> listMembers = new List<GridMember>();
+            IList<MembersGridDto> gridMembers = new List<MembersGridDto>();
             var members = DB.Instance.GetAllMembers();
             foreach(var member in members)
             {
-                listMembers.Add(new GridMember
+                gridMembers.Add(new MembersGridDto
                                 {
                                     Id = member.Id,
                                     FirstName = member.FirstName,
@@ -20,7 +20,20 @@ namespace ViewModelOppgave.Backend.Read
                                  }
                                 );
             }
-			return listMembers;
-		}       
-	}
+			return gridMembers;
+		}
+
+        public MembersGridDto GetSelectedMember(string id)
+        {
+            Member m = DB.Instance.GetMemberWithId(id);
+            return new MembersGridDto
+            {
+                Id = m.Id,
+                FirstName = m.FirstName,
+                LastName = m.LastName,
+                Age = m.Age,
+                Sex = m.Sex
+            };
+        }
+    }
 }

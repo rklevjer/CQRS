@@ -6,14 +6,14 @@ namespace ViewModelOppgave.Frontend
 
 	public class MembersGridViewModel : ViewModelWithRules
 	{
-		private readonly Backend.Read.GridMember _dataSource;
+		private readonly Backend.Read.MembersGridDto _dataSource;
 
-		public MembersGridViewModel(Backend.Read.GridMember dataSource)
+		public MembersGridViewModel(Backend.Read.MembersGridDto dataSource)
 		{
 			_dataSource = dataSource;
 		}
 
-		public Backend.Read.GridMember DataSource
+		public Backend.Read.MembersGridDto DataSource
 		{
 			get { return _dataSource; }
 		}

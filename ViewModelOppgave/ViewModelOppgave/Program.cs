@@ -19,7 +19,7 @@ namespace ViewModelOppgave
 
 			var readApi = new ReadApi();
 			var writeApi = new WriteApi();
-			var viewModel = new MembersViewModel(readApi, writeApi, new MemberDetailsViewModel(writeApi) { DataSource = new DetailMember(true) });
+			var viewModel = new MembersViewModel(readApi, new MemberDetailsViewModel(writeApi) { DataSource = new MemberDetailsDto(true) });
 	
 			Application.Run(new MembersView(viewModel));
 		}
